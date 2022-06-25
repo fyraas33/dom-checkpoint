@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #f4f3f3;
+}
+
+.nav-container {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  color: white;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+}
+
+.firastore {
+  width: 10rem;
+}
+
+.cart-container {
+  background-color: #727272;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+ 
+}
+
+.cart-details {
+  filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.15));
+  background: #ffffff;
+  width: 85%;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cart-left,
+.cart-right {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 0.5rem;
+}
+
+.cart-left {
+  column-gap: 2rem;
+}
+
+.cart-item {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.cart-item-price {
+  font-weight: bold;
+}
+
+.cart-item-img {
+  width: 10rem;
+}
+
+/* Cart Right */
+.cart-right {
+  column-gap: 1rem;
+  cursor: pointer;
+}
+
+.fav-icon {
+  font-size: 1.3rem;
+  font-weight: 900;
+  
+}
+
+.fav-icon.active {
+  color: #ff0000;
+  
+  
+}
+
+.cart-right-img {
+  position: relative;
+}
+.no-items-cart {
+  position: absolute;
+  background-color: white;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 0.1rem 0.2rem;
+  color: rgba(255, 61, 0, 0.74);
+  font-size: 0.5rem;
+  right: -0.2rem;
+  top: -0.2rem;
+}
+.cart-quantity i {
+  font-size: 1.1rem;
+}
+.cart-quantity {
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 0.2rem;
+}
+
+.item-quantity {
+  font-size: 0.7rem;
+  border: 1px solid black;
+  padding: 0.1rem 0.3rem;
+  width: 25px;
+}
+
+.delete-icon {
+  width: 1.1rem;
+  
+}
+
+.place-order {
+  background: #000000;
+  border-radius: 50px;
+  border: none;
+  color: rgb(0, 255, 0);
+  font-weight: 500;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer{
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  color: white;
+}
+.textt{
+  background: #000000;
+  border-radius: 50px;
+  border: none;
+  color: rgb(230, 230, 230);
+  font-weight: 500;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
